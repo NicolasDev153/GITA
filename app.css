@@ -185,3 +185,28 @@ a.movie-item:hover {
     transform: rotate(-45deg);
     left: 6px;
 }
+
+@media only screen and (max-width: 850px) {
+    html {
+        font-size: 10px;
+    }
+
+    .hamburger-menu {
+        display: grid;
+    }
+
+    .nav-menu {
+        /* display: none; */
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        background-color: #000000;
+        flex-direction: column;
+        width: 80%;
+        height: 100vh;
+        padding: 20px;
+        transition: 0.3s ease-in-out;
+    }
+
+
+}
