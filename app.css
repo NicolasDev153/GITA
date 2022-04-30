@@ -137,7 +137,7 @@ a.movie-item:hover {
     cursor: pointer;
     z-index: 101;
     position: relative;
-    display: flex;
+    display: none;
     align-items: center;
 }
 
