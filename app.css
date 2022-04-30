@@ -27,3 +27,17 @@ body {
 a {
     text-decoration: none;
 }
+
+img {
+    max-width: 100%;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 40px;
+    margin: auto;
+}
