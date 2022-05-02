@@ -126,6 +126,7 @@ a.movie-item:hover {
     width: 100%;
 }
 
+.btn i,
 .btn span {
     z-index: 1;
 }
