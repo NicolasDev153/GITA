@@ -16,4 +16,13 @@ $(document).ready(() => {
             navText: navText,
             autoplayHoverPause: true
         })
+
+        $('#top-movies-slide').owlCarousel({
+            items: 6,
+            dots: false,
+            loop: true,
+            autoplay: false,
+            autoplayHoverPause: true
+
+        })
 })
