@@ -23,6 +23,5 @@ $(document).ready(() => {
             loop: true,
             autoplay: false,
             autoplayHoverPause: true
-
         })
 })
