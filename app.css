@@ -360,7 +360,7 @@ a.movie-item:hover {
 }
 
 .movie-item:hover img {
-    transform: scale(0.9);
+    transform: scale(1.2);
 }
 
 
