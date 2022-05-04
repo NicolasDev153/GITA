@@ -35,4 +35,22 @@ $(document).ready(() => {
                 }
             }
         })
+        $('.movies-slide').owlCarousel({
+            items: 2,
+            dots: false,
+            nav:true,
+            navText: navText,
+            margin: 15,
+            responsive: {
+                500: {
+                    items: 2
+                },
+                1280: {
+                    items: 4
+                },
+                1600: {
+                    items: 6
+                }
+            }
+        })
 })
