@@ -474,6 +474,32 @@ footer a.logo:hover {
     color: unset;
 }
 
+.social-list {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-item {
+    --size: 30px;
+    height: var(--size);
+    width: var(--size);
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    color: var(--main-color);
+}
+
+.social-item:hover {
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+.social-item ~ .social-item {
+    margin-left: 20px;
+}
+
 /* RESP0NSIVE */
 
 @media only screen and (max-width: 1280px) {
