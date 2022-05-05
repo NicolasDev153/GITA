@@ -428,6 +428,32 @@ a.movie-item:hover {
     border-top: 5px solid var(--main-color);
 }
 
+.pricing-box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.pricing-price {
+    font-weight: 700;
+}
+
+.pricing-price span {
+    font-size: 1rem;
+}
+
+.pricing-box-content {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.25rem;
+}
+
+.pricing-box-action {
+    text-align: center;
+    margin-top: 60px;
+}
+
 /* RESP0NSIVE */
 
 @media only screen and (max-width: 1280px) {
